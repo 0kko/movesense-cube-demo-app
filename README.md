@@ -1,5 +1,5 @@
 # movesense-cube-demo-app
-To demonstrate and test movesense-cube-module
+To demonstrate and test [movesense-cube-module](https://github.com/0kko/movesense-cube-module)
 
 # debug.sh
 
