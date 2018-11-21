@@ -14,5 +14,5 @@ if [ -d "$MOD" ]; then
     usage;
 fi
 
-cmake -G Ninja -DMOVESENSE_CORE_LIBRARY=$MS_DIR -DCMAKE_TOOLCHAIN_FILE=$MS_DIR/toolchain/gcc-nrf52.cmake -DMOVESENSE_MODULES=$MOD ..
+cmake -G Ninja -DMOVESENSE_CORE_LIBRARY=$MS_DIR/MovesenseCoreLib -DCMAKE_TOOLCHAIN_FILE=$MS_DIR/MovesenseCoreLib/toolchain/gcc-nrf52.cmake -DMOVESENSE_MODULES=$MOD $1
 
